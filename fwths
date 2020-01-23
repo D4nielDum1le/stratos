@@ -1,0 +1,9 @@
+ls = []
+for i in range(3):
+    print("Give me a number")
+    number = int(input())
+    ls += [number]
+    ath = sum(ls)
+    mo = sum(ls)/3
+print(ath)
+print(mo)
