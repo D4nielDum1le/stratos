@@ -7,6 +7,6 @@ for i in range(3):
         ath = sum(ls)
         mo = sum(ls)/3
     except Exception:
-    print("wraios akeraios re kretine")
+        print("wraios akeraios re kretine")
 print(ath)
 print(mo)
